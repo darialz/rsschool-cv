@@ -112,6 +112,42 @@ hr {
     background-color: #ff00d9;
   }
  
-  
-  
-  
+  #edu { background-color: #000000; 
+    margin: 0px;
+    padding: 0;
+    height: 300px;
+    text-align: left;
+    display: flex;
+    user-select: none;
+
+}
+#education { --text-color: #ff00d9;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-weight: 600;
+}  
+.edu-list {--text-color: #ffffff;
+    margin-left: 300px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.edu-list_aitu {
+    width: 200px;
+    margin-top: 0px;
+}
+#code { background-color: #ffffff; 
+    margin: 0px;
+    padding: 0;
+    height: 300px;
+    text-align: left;
+    display: flex;
+    user-select: none;
+}
+#code-name {--text-color: #000000;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-weight: 600;
+
+}
