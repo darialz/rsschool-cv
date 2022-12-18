@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    scroll-behavior: smooth;
+}
+#header{   
+    background-color: #000000;  
+    margin: 0px;
+    padding: 0;
+    height: 500px;
+    text-align: left;
+    display: flex;
+    user-select: none;
+    --text-color: rgb(255, 255, 255);
+   
+}
+
+#text_header {
+    margin-top: 200px;
+    margin-left: 150px;
+    font-size: 36px;
+}
+
+nav {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+nav a {
+    padding: 0.4rem;
+    --text-color: #ff00d9;
+  }
+hr {
+   background-color: #ff00d9; 
+}
+#about_me { background-color: #ff00d9; 
+    margin: 0px;
+    padding: 0;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    user-select: none;
+}
+
+#text_about {
+    margin-left: 30px;
+    font-size: 57px;
+    margin-top: 0px;
+}
+#text_full {
+    margin-left: 30px;
+    margin-top: 35px;
+    font-size: 25px;
+    height: 170px;
+}
+#contacts { background-color: #000000; 
+    margin: 0px;
+    padding: 0;
+    height: 230px;
+    text-align: left;
+    display: flex;
+    user-select: none;
+}
+#name_1 {
+    --text-color: #ff00d9;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#contact { --text-color: #ffffff;
+    margin-left: 300px;
+    font-size: 20px;
+    margin-top: 100px;
+
+}
+#skills { background-color: #ffffff; 
+    margin: 0px;
+    padding: 0;
+    height: 450px;
+    text-align: left;
+    display: flex;
+    user-select: none;
+
+}
+#skills-heading {
+    --text-color: #000000;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+#scales-skills {
+    font-size: 35px;
+    margin-left: 450px;
+    margin-top: 80px;
+}
+.skill-scale {
+    height: 10px;
+    width: 200%;
+    background-color: #ddd;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .skill-level {
+    height: 100%;
+    background-color: #ff00d9;
+  }
+ 
+  #edu { background-color: #000000; 
+    margin: 0px;
+    padding: 0;
+    height: 300px;
+    text-align: left;
+    display: flex;
+    user-select: none;
+
+}
+#education { --text-color: #ff00d9;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-weight: 600;
+}  
+.edu-list {--text-color: #ffffff;
+    margin-left: 300px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.edu-list_aitu {
+    width: 200px;
+    margin-top: 0px;
+}
+#code { background-color: #ffffff; 
+    margin: 0px;
+    padding: 0;
+    height: 300px;
+    text-align: left;
+    display: flex;
+    user-select: none;
+}
+#code-name {--text-color: #000000;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.code-ex {
+    margin-left: 400px;
+
+}
+.footer {
+    background-color: #ff00d9; 
+    margin: 0px;
+    padding: 0;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    user-select: none;
+    margin-top: 120px;
+}
+#date {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+ #logo_footer {
+        margin-left: 50px;
+        width: 90px;
+        height: 90px;
+    }
